@@ -1,6 +1,6 @@
 cask "splashdown" do
-  version "0.1.1"
-  sha256 "7fd12b73475574359ae8bc8acdf6e7f13d2aab41439f1f8cad2c811f50f05320"
+  version "0.2.0"
+  sha256 "6c4ac23e1056030644c07513d530ad607e763d9507b4b087565fcb5f49346411"
 
   url "https://github.com/bhowerton/splashdown/releases/download/v#{version}/Splashdown-mac.dmg"
   name "Splashdown"
