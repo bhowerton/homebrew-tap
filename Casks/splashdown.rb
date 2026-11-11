@@ -1,6 +1,6 @@
 cask "splashdown" do
-  version "0.10.0"
-  sha256 "4894c3e1745b5abbff03e45f3d9451cd3b87d82eee44ebf750f3fb4eec3dd9e5"
+  version "0.12.1"
+  sha256 "b7a3681ef55dc53eeaa3fec8d3b74205b4919e392ed05b1eba475d0e5e96f529"
 
   url "https://github.com/bhowerton/splashdown/releases/download/v#{version}/Splashdown-mac.dmg"
   name "Splashdown"
@@ -13,7 +13,7 @@ cask "splashdown" do
   end
 
   auto_updates true
-  depends_on macos: :ventura
+  depends_on macos: :monterey
 
   app "Splashdown.app"
 
